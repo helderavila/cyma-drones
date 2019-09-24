@@ -1,0 +1,67 @@
+/* Cores */
+$cor-primaria: #2D3436;
+$cor-secundaria: #636E72;
+$cor-terciaria: #DFE6E9;
+/* Main */
+.presentation {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+}
+
+.introduction {
+  flex: 1;
+}
+
+.intro-text {
+  padding: 0px 0px 0px 100px;
+  h1{
+    font-size: 44px;
+    font-weight: 600;
+    color: $cor-primaria;
+    animation: drop 1.5s ease;
+  }
+  p{
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 5px;
+    color: $cor-secundaria;
+    animation: drop 1.9s ease;
+  }
+}
+
+.btn {
+  padding: 30px 0px 40px 100px;
+}
+
+.btn-buy {
+  width: 150px;
+  height: 50px;
+  border: none;
+  font-size: 16px;
+  background: $cor-primaria;
+  color: white;
+  margin: 0px 0px 0px 32px;
+  cursor: pointer;
+  animation: drop 1.5s ease;
+}
+
+.btn-about {
+  width: 150px;
+  height: 50px;
+  background: none;
+  border: 2px solid $cor-secundaria;
+  font-size: 16px;
+  color: $cor-secundaria;
+  cursor: pointer;
+  animation: drop 1.5s ease;
+}
+
+.cover {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  animation: drop 1.5s ease;
+}

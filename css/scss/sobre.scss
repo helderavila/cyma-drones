@@ -1,0 +1,40 @@
+/* Cores */
+$cor-primaria: #2D3436;
+$cor-secundaria: #636E72;
+$cor-terciaria: #DFE6E9;
+
+//Sobre
+.about-cyma {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    font-size: 44px;
+    text-align: center;
+    margin-top: 70px;
+    animation: drop 1.5s ease;
+  }
+  p{
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+    width: 900px;
+    animation: drop 1.5s ease;
+  }
+  form {
+    input {
+      width: 550px;
+      height: 47px;
+      border: 2px solid $cor-secundaria;
+      background: none;
+      font-size: 14px;
+      padding-left: 20px;
+      animation: drop 1.5s ease;
+      margin-top: 50px;
+      margin-bottom: 230px;
+      &::-webkit-input-placeholder {
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+  }
+}

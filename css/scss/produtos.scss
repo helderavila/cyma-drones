@@ -1,0 +1,51 @@
+/* Cores */
+$cor-primaria: #2D3436;
+$cor-secundaria: #636E72;
+$cor-terciaria: #DFE6E9;
+
+/* Produtos */
+.intro-product {
+  margin-top: 200px;
+  margin-bottom: 220px;
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+
+.img {
+  margin: 0px 0px 0px 240px;
+  animation: drop 1.5s ease;
+  flex: 1;
+  justify-content: center;
+}
+
+.descri {
+  flex: 2;
+  h1{
+    font-size: 44px;
+    color: $cor-primaria;
+    animation: drop 1.5s ease;
+  }
+  p {
+    font-size: 16px;
+    color: $cor-secundaria;
+    animation: drop 1.5s ease;
+  }
+  h2 {
+    font-size: 18px;
+    color: $cor-primaria;
+    animation: drop 1.5s ease;
+  }
+  h3 {
+    font-size: 24px;
+    color: $cor-secundaria;
+    animation: drop 1.5s ease;
+  }
+}
+
+
+.posi {
+  margin: 16px 500px 100px 0px;
+}
+
+.btn-buy {margin: 0px 0px 0px 0px;}

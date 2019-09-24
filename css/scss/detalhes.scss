@@ -1,0 +1,43 @@
+/* Cores */
+$cor-primaria: #2D3436;
+$cor-secundaria: #636E72;
+$cor-terciaria: #DFE6E9;
+
+/* Detalhes */
+.container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  h1 {
+    font-size: 44px;
+    text-align: center;
+    margin-top: 70px;
+    animation: drop 1.5s ease;
+  }
+}
+
+table {
+  padding: 50px;
+  border-spacing: 16px;
+  margin-bottom: 164px;
+  animation: drop 1.5s ease;
+  th {
+    background: $cor-primaria;
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+    padding: 12px 45px 12px 45px;
+    width: 200px;
+    height: 50px;
+  }
+  td {
+    background: $cor-terciaria;
+    color: $cor-primaria;
+    font-weight: 400;
+    font-size: 22px;
+    width: 450px;
+    height: 60px;
+    text-align: center;
+  }
+}

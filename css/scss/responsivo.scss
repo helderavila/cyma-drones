@@ -1,0 +1,113 @@
+//Responsivo
+@media screen and (max-width:1024px){
+  //Home Screen
+  header{
+    margin: 20px;
+    text-align: center;
+    flex-direction: column;
+  }
+  .nav-link {
+    
+    padding: 30px 8px 30px 10px;
+  }
+  .cart {
+    img{
+      display: none;
+    }
+  }
+  .presentation {
+		flex-direction: column;
+  }
+  .introduction {
+    margin-left: -30px;
+		margin-top: 8vh;
+  }
+  .intro-text {
+    h1{
+      font-size: 28px;
+    }
+    p{
+      font-size:18px;
+    }
+  }
+  .cover {
+    img{
+      height: 10%;
+      width: 80%;
+    }
+  }
+  .btn{
+    flex-direction: column;
+    margin-left: 35px;
+    padding: 10px;
+  }
+  //Detalhes
+  .details {  
+    h1{
+      font-size: 28px;
+    }
+    th{
+      width: 100px;
+      height: 20px;
+    }
+    table {
+      margin-bottom: -20px;
+    }
+  }
+  //Produtos
+  .intro-product {
+    text-align: center;
+    width: 300px;
+    flex-direction: column;
+    margin-bottom: 0px;
+    .img{
+    display: none;
+    }
+  }
+  .descri {
+    margin-top: -100px;
+    margin-left: 500px;
+    flex-direction: column;
+    h1{
+      margin-left: -400px;
+      font-size: 28px;
+    }
+    p {
+      width: 300px;
+      font-size: 18px;
+    }
+    h2, h3{
+      margin-left: -420px;      
+    }
+    .posi {
+      margin-left: 70px;
+    }
+  }
+  //Sobre
+  .about-cyma {
+    h1 {
+      font-size: 28px;
+    }
+    p{
+      width: 300px;
+      font-size: 18px;
+    }
+    form {
+      padding: 10px;
+      input {
+        margin: 10px 0px 20px 50px;
+        width: 250px;
+        height: 47px;
+        font-size: 14px;
+        &::-webkit-input-placeholder {
+          font-size: 14px;
+          font-weight: 400;
+        }
+      }
+      button {
+        width: 273px;
+        margin: 0px 0px 0px 50px;
+      }
+    }
+  }
+}
